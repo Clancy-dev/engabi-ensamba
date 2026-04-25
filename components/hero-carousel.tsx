@@ -1,8 +1,9 @@
 "use client"
 
-import { useEffect, useCallback } from "react"
+import { useEffect, useCallback, useState } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
+import Fade from "embla-carousel-fade"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -35,7 +36,9 @@ const slides = [
 ]
 
 export function HeroCarousel() {
+  const [selectedIndex, setSelectedIndex] = useState(0)
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Fade(),
     Autoplay({ delay: 5000, stopOnInteraction: false }),
   ])
 
@@ -46,9 +49,23 @@ export function HeroCarousel() {
     [emblaApi]
   )
 
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return
+    setSelectedIndex(emblaApi.selectedScrollSnap())
+  }, [emblaApi])
+
   useEffect(() => {
     if (!emblaApi) return
-  }, [emblaApi])
+    
+    onSelect()
+    emblaApi.on("select", onSelect)
+    emblaApi.on("reInit", onSelect)
+    
+    return () => {
+      emblaApi.off("select", onSelect)
+      emblaApi.off("reInit", onSelect)
+    }
+  }, [emblaApi, onSelect])
 
   return (
     <section className="relative w-full overflow-hidden">
@@ -111,13 +128,18 @@ export function HeroCarousel() {
       </div>
 
       {/* Dots indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => scrollTo(index)}
-            className="w-3 h-3 rounded-full bg-background/50 hover:bg-background transition-colors"
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+              index === selectedIndex
+                ? "bg-primary w-8"
+                : "bg-background/50 hover:bg-background/80"
+            }`}
             aria-label={`Go to slide ${index + 1}`}
+            aria-current={index === selectedIndex ? "true" : undefined}
           />
         ))}
       </div>
