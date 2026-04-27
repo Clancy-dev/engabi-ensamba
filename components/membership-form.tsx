@@ -145,8 +145,8 @@ export function MembershipForm() {
           </p>
           <p className="text-sm text-muted-foreground">
             For immediate assistance, call us at{" "}
-            <a href="tel:+256753244446" className="text-primary hover:underline">
-              +256 753 244 446
+            <a href="tel:+256782358125" className="text-primary hover:underline">
+              +256 782 358 125
             </a>
           </p>
         </CardContent>
