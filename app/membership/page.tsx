@@ -78,7 +78,7 @@ export default function MembershipPage() {
       <MiniHero
         title="Become a Member"
         subtitle="Join our growing family of clanmates building wealth together"
-        backgroundImage="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1920"
+        backgroundImage="/members.jpg"
       />
 
       {/* Benefits Section */}

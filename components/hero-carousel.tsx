@@ -19,7 +19,7 @@ const slides = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1920",
+      "/hero 2.png",
     title: "Building Stronger Communities",
     subtitle: "Unity in Savings",
     description:
@@ -27,7 +27,7 @@ const slides = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1920",
+      "/hero 3.jpg",
     title: "Affordable Loans",
     subtitle: "Supporting Your Dreams",
     description:

@@ -79,7 +79,7 @@ export default function ContactPage() {
       <MiniHero
         title="Contact Us"
         subtitle="Get in touch with us for any inquiries or support"
-        backgroundImage="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1920"
+        backgroundImage="/contact.jpg"
       />
 
       {/* Contact Info Cards */}

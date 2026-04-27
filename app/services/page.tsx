@@ -169,7 +169,7 @@ const successStories = [
     title: "Retail Shop Expansion",
     description:
       "A member added more items to her retail shop, increasing her income and customer base significantly.",
-    image: "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?q=80&w=600",
+    image: "/shop.png",
   },
 ]
 
@@ -179,7 +179,7 @@ export default function ServicesPage() {
       <MiniHero
         title="Our Services"
         subtitle="Comprehensive financial solutions for every clan member"
-        backgroundImage="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1920"
+        backgroundImage="/services.png"
       />
 
       {/* Main Services */}
@@ -339,7 +339,7 @@ export default function ServicesPage() {
             <div className="relative">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800"
+                  src="/register.jpg"
                   alt="Financial planning and support"
                   fill
                   className="object-cover"

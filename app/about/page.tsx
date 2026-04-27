@@ -116,7 +116,7 @@ export default function AboutPage() {
       <MiniHero
         title="About Us"
         subtitle="Learn about our journey, mission, and the people who make it happen"
-        backgroundImage="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero%20image%201-NxiIL1m9QFnD8hikwdnCceOHxDDDGh.jpeg"
+        backgroundImage="/about.jpg"
       />
 
       {/* Our Story Section */}
@@ -154,7 +154,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero%20image%201-NxiIL1m9QFnD8hikwdnCceOHxDDDGh.jpeg"
+                  src="/images/og-image.jpg"
                   alt="Founding members of Engabi Ensamba Clan SACCO"
                   fill
                   className="object-cover"
