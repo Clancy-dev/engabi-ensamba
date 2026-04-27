@@ -50,9 +50,10 @@ export async function POST(request: Request) {
             <tr>
               <td align="center">
                 <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                  <!-- Header -->
+                  <!-- Header with Logo -->
                   <tr>
-                    <td style="background: linear-gradient(135deg, #c62828 0%, #8e0000 100%); padding: 40px; text-align: center;">
+                    <td style="background: linear-gradient(135deg, #c62828 0%, #8e0000 100%); padding: 30px; text-align: center;">
+                      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-tIfg9kT5uYiaWyuJEj16Mq2Co0TEhG.jpeg" alt="Engabi Ensamba Clan SACCO Logo" style="max-width: 120px; height: auto; margin-bottom: 20px;">
                       <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">New Membership Application</h1>
                       <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;">Engabi Ensamba Clan SACCO</p>
                     </td>
@@ -196,9 +197,10 @@ export async function POST(request: Request) {
             <tr>
               <td align="center">
                 <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                  <!-- Header -->
+                  <!-- Header with Logo -->
                   <tr>
-                    <td style="background: linear-gradient(135deg, #c62828 0%, #8e0000 100%); padding: 40px; text-align: center;">
+                    <td style="background: linear-gradient(135deg, #c62828 0%, #8e0000 100%); padding: 30px; text-align: center;">
+                      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-tIfg9kT5uYiaWyuJEj16Mq2Co0TEhG.jpeg" alt="Engabi Ensamba Clan SACCO Logo" style="max-width: 120px; height: auto; margin-bottom: 20px;">
                       <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: bold;">Welcome, ${firstName}!</h1>
                       <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;">Your application has been received</p>
                     </td>
