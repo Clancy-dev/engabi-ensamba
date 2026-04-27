@@ -28,11 +28,11 @@ export function Header() {
         <div className="container mx-auto px-4 flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center gap-4 flex-wrap">
             <a
-              href="tel:+256753244446"
+              href="tel:+256782358125"
               className="flex items-center gap-1 hover:underline"
             >
               <Phone className="h-3 w-3" />
-              <span className="hidden sm:inline">+256 753 244 446</span>
+              <span className="hidden sm:inline">+256 782 358 125</span>
             </a>
             <a
               href="mailto:engabiensambaclansacco@gmail.com"

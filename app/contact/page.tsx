@@ -37,8 +37,8 @@ const contactInfo = [
     icon: Phone,
     title: "Phone Numbers",
     details: [
-      "+256 753 244 446",
       "+256 782 358 125",
+      "+256 753 244 446",
       "+256 772 401 428",
       "+256 701 100 988",
     ],
