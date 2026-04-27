@@ -203,18 +203,19 @@ export default function MembershipPage() {
               <p className="text-secondary-foreground/80">
                 Call us at{" "}
                 <a
+                  href="tel:+256782358125"
+                  className="font-semibold hover:underline"
+                >
+                  +256 782 358 125
+                </a>
+                or{" "}
+                <a
                   href="tel:+256753244446"
                   className="font-semibold hover:underline"
                 >
                   +256 753 244 446
                 </a>{" "}
-                or{" "}
-                <a
-                  href="tel:+256772401428"
-                  className="font-semibold hover:underline"
-                >
-                  +256 772 401 428
-                </a>
+                  
               </p>
             </div>
           </div>
