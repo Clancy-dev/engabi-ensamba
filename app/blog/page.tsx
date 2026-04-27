@@ -38,7 +38,7 @@ Our leadership worked tirelessly to ensure all by-laws were in place and that ou
 With this official recognition, members can now have full confidence in the SACCO's operations, knowing that we are regulated and supervised by the relevant government authorities.`,
     date: "March 27, 2026",
     category: "Milestone",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=600",
+    image: null,
   },
   {
     slug: "first-board-elections-held",
@@ -60,7 +60,7 @@ The supervisory committee was also elected to ensure proper oversight of the SAC
 This election marked a crucial step in establishing proper governance and accountability within our SACCO.`,
     date: "April 18, 2026",
     category: "Governance",
-    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=600",
+    image: null,
   },
   {
     slug: "grand-launch-ceremony",
@@ -81,8 +81,7 @@ The event featured:
 Members from various parts of Uganda and even those abroad attended this historic event, demonstrating the unity and commitment of the Engabi Ensamba clan to support each other financially.`,
     date: "May 22, 2026",
     category: "Event",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero%20image%201-NxiIL1m9QFnD8hikwdnCceOHxDDDGh.jpeg",
+    image: null,
   },
   {
     slug: "supporting-local-businesses",
@@ -111,7 +110,7 @@ Agricultural loans have supported farming activities including crop farming and 
 These success stories demonstrate the power of pooling resources together as a community.`,
     date: "May 2026",
     category: "Impact",
-    image: null,
+    image: "",
   },
   {
     slug: "membership-grows-to-200",
@@ -170,7 +169,7 @@ export default function BlogPage() {
       <MiniHero
         title="Blog & News"
         subtitle="Stay updated with the latest news, events, and stories from our SACCO"
-        backgroundImage="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1920"
+        backgroundImage="/blogs.png"
       />
 
       {/* Video Lightbox */}
