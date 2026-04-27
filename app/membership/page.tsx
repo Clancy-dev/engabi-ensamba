@@ -207,14 +207,14 @@ export default function MembershipPage() {
                   className="font-semibold hover:underline"
                 >
                   +256 782 358 125
-                </a>
+                </a>{" "}
                 or{" "}
                 <a
                   href="tel:+256753244446"
                   className="font-semibold hover:underline"
                 >
                   +256 753 244 446
-                </a>{" "}
+                </a>
                   
               </p>
             </div>
