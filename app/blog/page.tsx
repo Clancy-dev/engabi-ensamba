@@ -218,7 +218,7 @@ export default function BlogPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex items-center justify-center gap-8">
             {videos.map((video) => (
               <Card
                 key={video.id}
