@@ -210,10 +210,10 @@ export default function MembershipPage() {
                 </a>{" "}
                 or{" "}
                 <a
-                  href="tel:+256782358125"
+                  href="tel:+256701100988"
                   className="font-semibold hover:underline"
                 >
-                  +256 782 358 125
+                  +256 701 100 988
                 </a>
                   
               </p>
