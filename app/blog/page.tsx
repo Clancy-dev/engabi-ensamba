@@ -15,7 +15,7 @@ const videos = [
     description:
       "Watch the highlights from our official launch ceremony held on May 22, 2026. Join us in celebrating this historic milestone for our clan.",
     videoUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VID-20260425-WA0005-6LF8rS7ernu3uiVkfWBmDwnJhbJUWL.mp4",
+      "/website video.mp4",
     date: "May 22, 2026",
     duration: "Watch Video",
     poster:
