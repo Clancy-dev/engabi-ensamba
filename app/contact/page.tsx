@@ -5,11 +5,12 @@ import { MiniHero } from "@/components/mini-hero"
 export const metadata: Metadata = {
   title: "Contact Us | Engabi Ensamba Clan SACCO - Get in Touch",
   description:
-    "Contact Engabi Ensamba Clan SACCO at Kibuye, Kampala-Uganda. Call +256 782 358 125 or email engabiensambaclansacco@gmail.com. Visit us or send a message online.",
+    "Contact Engabi Ensamba Clan SACCO at Kibuye Makindye Jjuuko zone, Kasepeewo road, Kampala-Uganda. Call +256 782 358 125 or email engabiensambaclansacco@gmail.com. Visit us or send a message online.",
   keywords: [
     "Contact SACCO",
     "SACCO location",
-    "Kibuye Kampala",
+    "Kibuye Makindye Jjuuko",
+    "Kasepeewo road",
     "SACCO phone number",
     "SACCO email",
     "Uganda cooperative contact",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Engabi Ensamba Clan SACCO",
     description:
-      "Get in touch with us at Kibuye, Kampala-Uganda. We are here to help with any inquiries.",
+      "Get in touch with us at Kibuye Makindye Jjuuko zone, Kasepeewo road, Kampala-Uganda. We are here to help with any inquiries.",
   },
 }
 import { ContactForm } from "@/components/contact-form"
@@ -57,10 +58,10 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    details: ["Kibuye", "Kampala, Uganda"],
+    details: ["Kibuye Makindye Jjuuko zone", "Kasepeewo road, Near Ememe Primary School"],
     action: {
       label: "Get Directions",
-      href: "https://www.google.com/maps/search/Kibuye+Kampala+Uganda",
+      href: "https://www.google.com/maps/search/Kibuye+Makindye+Jjuuko+Kasepeewo+road+Kampala+Uganda",
     },
   },
   {
@@ -76,7 +77,7 @@ export default function ContactPage() {
     <>
       <MiniHero
         title="Contact Us"
-        subtitle="Get in touch with us for any inquiries or support"
+        subtitle="Visit us at Kibuye Makindye Jjuuko zone or reach out for any inquiries"
         backgroundImage="/contact.jpg"
       />
 
@@ -145,7 +146,7 @@ export default function ContactPage() {
               <Card className="bg-card border-none shadow-xl overflow-hidden flex-1">
                 <div className="relative h-[300px] lg:h-full min-h-[300px]">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7584892553445!2d32.56066431475393!3d0.2909086997866454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb0f0f3f6a81%3A0x7c1c8f7e7a9d7d4e!2sKibuye%2C%20Kampala%2C%20Uganda!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.794!2d32.5635!3d0.2895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbaab5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2sKibuye%20Makindye%20Jjuuko%2C%20Kampala!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -173,7 +174,7 @@ export default function ContactPage() {
                         Reach us directly on WhatsApp for quick responses
                       </p>
                       <a
-                        href="https://wa.me/256772401428"
+                        href="https://wa.me/256782358125"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 px-4 py-2 rounded-lg text-sm font-semibold transition-colors"

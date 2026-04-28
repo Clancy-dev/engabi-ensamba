@@ -46,8 +46,8 @@ export function Header() {
           </div>
           <p className="flex items-center gap-1">
             <MapPin className="h-3 w-3" />
-            <span className="hidden sm:inline">Kibuye, Kampala - Uganda</span>
-            <span className="sm:hidden">Kibuye, Kampala - Uganda</span>
+            <span className="hidden sm:inline">Kibuye, Makindye - Jjuuko zone</span>
+            <span className="sm:hidden">Kibuye Makindye</span>
           </p>
         </div>
       </div>

@@ -84,7 +84,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-background/80">
-                  Kibuye, Kampala-Uganda
+                  Kibuye Makindye Jjuuko zone, Kasepeewo road, Near Ememe Primary School
                 </span>
               </li>
               <li className="flex items-start gap-3">
