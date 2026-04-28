@@ -60,7 +60,7 @@ const requirements = [
   "Be a member of Engabi Ensamba Clan or related through marriage",
   "Pay the membership fee as per the by-laws",
   "Purchase at least one share at UGX 10,000",
-  "Agree to abide by the SACCO&apos;s by-laws and regulations",
+  "Agree to abide by the SACCO's by-laws and regulations",
   "Provide valid identification (National ID)",
   "Be willing to participate in group activities",
 ]

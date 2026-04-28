@@ -82,7 +82,7 @@ const mainServices = [
     icon: TrendingUp,
     title: "Investment Opportunities",
     description:
-      "Purchase shares and invest in the SACCO&apos;s growth. With shares at UGX 10,000 each, every clan member can participate in building collective wealth.",
+      "Purchase shares and invest in the SACCO's growth. With shares at UGX 10,000 each, every clan member can participate in building collective wealth.",
     features: [
       "Affordable share price",
       "Collective ownership",
