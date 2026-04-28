@@ -5,7 +5,7 @@ import { MiniHero } from "@/components/mini-hero"
 export const metadata: Metadata = {
   title: "Contact Us | Engabi Ensamba Clan SACCO - Get in Touch",
   description:
-    "Contact Engabi Ensamba Clan SACCO at Kibuye, Kampala-Uganda. Call +256 753 244 446 or email engabiensambaclansacco@gmail.com. Visit us or send a message online.",
+    "Contact Engabi Ensamba Clan SACCO at Kibuye, Kampala-Uganda. Call +256 782 358 125 or email engabiensambaclansacco@gmail.com. Visit us or send a message online.",
   keywords: [
     "Contact SACCO",
     "SACCO location",
@@ -38,13 +38,11 @@ const contactInfo = [
     title: "Phone Numbers",
     details: [
       "+256 782 358 125",
-      "+256 753 244 446",
-      "+256 772 401 428",
       "+256 701 100 988",
     ],
     action: {
       label: "Call Now",
-      href: "tel:+256753244446",
+      href: "tel:+256782358125",
     },
   },
   {

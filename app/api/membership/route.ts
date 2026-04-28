@@ -257,7 +257,7 @@ export async function POST(request: Request) {
                       <div style="background-color: #fff3e0; border-left: 4px solid #ff9800; padding: 16px; border-radius: 0 8px 8px 0; margin-bottom: 30px;">
                         <p style="margin: 0; color: #333; font-weight: 600;">Questions?</p>
                         <p style="margin: 8px 0 0 0; color: #666;">
-                          Call us: <a href="tel:+256753244446" style="color: #c62828; text-decoration: none;">+256 753 244 446</a> or <a href="tel:+256772401428" style="color: #c62828; text-decoration: none;">+256 772 401 428</a>
+                          Call us: <a href="tel:+256782358125" style="color: #c62828; text-decoration: none;">+256 782 358 125</a> or <a href="tel:+256701100988" style="color: #c62828; text-decoration: none;">+256 701 100 988</a>
                         </p>
                       </div>
 

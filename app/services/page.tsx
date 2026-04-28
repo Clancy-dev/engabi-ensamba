@@ -156,19 +156,19 @@ const successStories = [
   {
     title: "Poultry Farming Success",
     description:
-      "A member received a loan to buy chicks for broilers and now supplies to restaurants across Kampala.",
+       "Namatovu Oliver registered with Akasolya Group and she was able to acquire a loan to buy chicks for broilers and now supplies to restaurants across Kampala.",
     image: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=600",
   },
   {
     title: "Coffee Business Growth",
     description:
-      "With our loan, a clanmate purchased coffee grinding machines and sealers, growing their coffee business.",
+      "With our loan, Juliet Nakanwagi Lutakome purchased coffee grinding machines, sealers, packaging material which boosted her coffee business ie Oweeka Coffee(Oweeka Coffee Beans & Oweeka Coffee Powder).",
     image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=600",
   },
   {
     title: "Retail Shop Expansion",
     description:
-      "A member added more items to her retail shop, increasing her income and customer base significantly.",
+      "Lilian Namuyomba, Aloysius Lubega added more items to their retail shops, increasing their income and customer base significantly.",
     image: "/shop.png",
   },
 ]

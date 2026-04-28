@@ -90,8 +90,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-background/80">
-                  <p>+256 753 244 446 / +256 782 358 125</p>
-                  <p>+256 772 401 428 / +256 701 100 988</p>
+                  <p>+256 782 358 125</p>
+                  <p>+256 701 100 988</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
