@@ -171,22 +171,6 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-card border-none shadow-lg">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
-                  <Target className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="font-serif text-2xl font-bold text-foreground mb-4">
-                  Our Mission
-                </h3>
-                <p className="text-muted-foreground leading-relaxed text-lg">
-                  We are pooling resources together as clanmates to create a
-                  savings culture and support each other financially by offering
-                  affordable interest rates on loans.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-card border-none shadow-lg">
-              <CardContent className="p-8">
                 <div className="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6">
                   <Eye className="h-8 w-8 text-secondary" />
                 </div>
@@ -200,6 +184,21 @@ export default function AboutPage() {
                 </p>
               </CardContent>
             </Card>
+            <Card className="bg-card border-none shadow-lg">
+              <CardContent className="p-8">
+                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+                  <Target className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="font-serif text-2xl font-bold text-foreground mb-4">
+                  Our Mission
+                </h3>
+                <p className="text-muted-foreground leading-relaxed text-lg">
+                  We are pooling resources together as clanmates to create a
+                  savings culture and support each other financially by offering
+                  affordable interest rates on loans.
+                </p>
+              </CardContent>
+            </Card>  
           </div>
         </div>
       </section>
