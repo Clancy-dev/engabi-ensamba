@@ -51,7 +51,7 @@ const ssigaOptions = [
 
 const groupOptions = [
   "Kasolya level Group",
-  "Lunyiriri level Group",
+  "Lunyilili level Group",
   "Ssiga Level Group",
   "Mutuba Level Group",
   "Residence-based Group",
