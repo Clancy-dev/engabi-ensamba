@@ -109,7 +109,7 @@ const loanTypes = [
     icon: Tractor,
     title: "Agricultural Loans",
     description:
-      "Invest in farming - from buying chicks for broilers to coffee processing equipment.",
+      "Invest in farming - from buying chicks for poultry to coffee processing equipment.",
   },
   {
     icon: ShoppingBag,
@@ -157,7 +157,7 @@ const successStories = [
   {
     title: "Poultry Farming Success",
     description:
-       "Namatovu Oliver registered with Kasolya Group and she was able to acquire a loan to buy chicks for broilers and now supplies to restaurants across Kampala.",
+       "Namatovu Oliver registered with Kasolya Group and she was able to acquire a loan to buy chicks for poultry and now supplies to restaurants across Kampala.",
     image: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=600",
   },
   {

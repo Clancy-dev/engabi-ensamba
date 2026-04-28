@@ -87,13 +87,13 @@ Members from various parts of Uganda and even those abroad attended this histori
     slug: "supporting-local-businesses",
     title: "Supporting Local Businesses",
     excerpt:
-      "Within our first year, we supported members with loans for broilers, coffee processing, retail shops, education, and agriculture. Read about our impact.",
+      "Within our first year, we supported members with loans for poultry, coffee processing, retail shops, education, and agriculture. Read about our impact.",
     content: `Within our first year, Engabi Ensamba Clan SACCO has made a significant impact by supporting members with loans for various business ventures.
 
 Our loan disbursements have supported:
 
 **Poultry Farming**
-Several members received loans to purchase chicks for broiler farming. Today, some of these members supply chicken to restaurants across Kampala.
+Several members received loans to purchase chicks for poultry farming. Today, some of these members supply chicken to restaurants across Kampala.
 
 **Coffee Processing**
 We supported a clanmate to purchase coffee grinding machines and sealers, enabling them to add value to coffee and increase their income.

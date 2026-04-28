@@ -53,7 +53,7 @@ const founders = [
     name: "Salongo James Bukenya",
     role: "Viva Hardware • Ministry of Cooperatives & Trade at clan level",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Salongo%20James%20Bukenya-OYoHJdkj8qlx6J37nr6zPcqZK9dtMd.jpg",
+      "",
   },
   {
     name: "Katikiro Salongo Balilonda",
@@ -118,7 +118,7 @@ const timeline = [
     date: "Year One",
     title: "First Loans Disbursed",
     description:
-      "Supported members with loans for broilers, coffee machines, retail shops, and education",
+      "Supported members with loans for poultry, coffee machines, retail shops, and education",
   },
   {
     date: "March 27, 2026",

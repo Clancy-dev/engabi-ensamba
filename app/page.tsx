@@ -78,7 +78,7 @@ const features = [
     icon: Shield,
     title: "Secure Investments",
     description:
-      "Your savings are protected and managed by elected, trustworthy board members.",
+      "Your savings are protected and managed by elected, trustworthy board members. They are kept in the bank. We are working on engaging insurance companies.",
   },
   {
     icon: Building2,
@@ -98,7 +98,7 @@ const stats = [
 const testimonials = [
   {
     quote:
-      "The SACCO helped me secure a loan to buy chicks for my broiler business. Now I supply to restaurants across Kampala!",
+      "The SACCO helped me secure a loan to buy chicks for my poultry business. Now I supply to restaurants across Kampala!",
     author: "Namatovu Oliver",
     role: "A Happy Member",
   },
