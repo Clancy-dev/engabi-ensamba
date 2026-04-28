@@ -70,7 +70,7 @@ const mainServices = [
     icon: Users,
     title: "Group Formation",
     description:
-      "Form or join groups at different levels - headquarters, Ssiga, Mutuba, Lunyilili, or where you reside. Each group manages its day-to-day operations under the SACCO umbrella.",
+      "Form or join groups at different levels - Kasolya, Ssiga, Mutuba, Lunyilili, or where you reside. Each group manages its day-to-day operations under the SACCO umbrella.",
     features: [
       "Multiple group levels",
       "Local management",
@@ -156,7 +156,7 @@ const successStories = [
   {
     title: "Poultry Farming Success",
     description:
-       "Namatovu Oliver registered with Akasolya Group and she was able to acquire a loan to buy chicks for broilers and now supplies to restaurants across Kampala.",
+       "Namatovu Oliver registered with Kasolya Group and she was able to acquire a loan to buy chicks for broilers and now supplies to restaurants across Kampala.",
     image: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=600",
   },
   {
@@ -301,7 +301,7 @@ export default function ServicesPage() {
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Engabi Ensamba Clan SACCO welcomes clanmates from all corners of
                 the clan within and outside the country. Each person is free to
-                join one group at headquarters, Ssiga, Mutuba, Lunyilili, or
+                join one group at the Kasolya, Ssiga, Mutuba, Lunyilili, or
                 where they reside.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">

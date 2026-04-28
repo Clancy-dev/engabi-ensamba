@@ -122,7 +122,7 @@ These success stories demonstrate the power of pooling resources together as a c
 This remarkable growth shows the trust and confidence that clan members have in Engabi Ensamba Clan SACCO. With shares priced at UGX 10,000 each, we have mobilized significant resources that are now being used to support members through loans.
 
 Our membership spans:
-- Members at headquarters
+- Members at the Kasolya
 - Members from various Ssiga levels
 - Members from Mutuba levels
 - Members residing in different parts of Uganda
@@ -137,12 +137,12 @@ We welcome all Engabi Ensamba clan members to join us and be part of this growin
     slug: "three-groups-established",
     title: "Three Groups Established",
     excerpt:
-      "By the end of year one, three groups had been established at headquarters, Ssiga level, and Mutuba level, providing accessible support to members.",
+      "By the end of year one, three groups had been established at the Kasolya, Ssiga level, and Mutuba level, providing accessible support to members.",
     content: `By the end of year one, three groups had been established, providing accessible support to members at different levels of the clan structure.
 
 **Groups Established:**
 
-1. **Headquarters Group** - Based at Kibuye, Kampala, this group serves as the main coordination center for the SACCO.
+1. **Kasolya** - Based at Kibuye, Kampala, this group serves as the main coordination center for the SACCO.
 
 2. **Ssiga Level Group** - Operating at the Ssiga lya Yiga level, this group serves members in this administrative unit.
 
@@ -154,7 +154,7 @@ Each group:
 - Follows guidelines set by the SACCO board
 - Reports to the central leadership
 
-Members are free to join the group most convenient for them, whether at headquarters, their Ssiga, Mutuba, Lunyilili, or where they reside.`,
+Members are free to join the group most convenient for them, whether at the Kasolya, their Ssiga, Mutuba, Lunyilili, or where they reside.`,
     date: "May 2026",
     category: "Expansion",
     image: null,

@@ -335,48 +335,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Affiliates */}
-      <section className="py-16 md:py-24 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <p className="text-primary font-semibold uppercase tracking-wider mb-2">
-              Partners
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-              Our Affiliates
-            </h2>
-            <p className="text-muted-foreground text-lg">
-              We are proud to be affiliated with these prestigious organizations
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {affiliates.map((affiliate, index) => (
-              <Card
-                key={index}
-                className="bg-card border-none shadow-lg hover:shadow-xl transition-shadow text-center"
-              >
-                <CardContent className="p-8">
-                  <div className="relative w-32 h-32 mx-auto mb-6 rounded-xl overflow-hidden bg-muted">
-                    <Image
-                      src={affiliate.image}
-                      alt={affiliate.name}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <h3 className="font-serif text-xl font-bold text-foreground mb-2">
-                    {affiliate.name}
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    {affiliate.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-16 md:py-24 bg-secondary">

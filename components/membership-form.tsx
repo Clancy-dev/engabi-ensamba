@@ -50,7 +50,7 @@ const ssigaOptions = [
 ]
 
 const groupOptions = [
-  "Headquarters Group",
+  "Kasolya",
   "Ssiga Level Group",
   "Mutuba Level Group",
   "Residence-based Group",

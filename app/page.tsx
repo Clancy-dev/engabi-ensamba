@@ -99,21 +99,15 @@ const testimonials = [
   {
     quote:
       "The SACCO helped me secure a loan to buy chicks for my broiler business. Now I supply to restaurants across Kampala!",
-    author: "A Happy Member",
-    role: "Poultry Farmer",
+    author: "Namatovu Oliver",
+    role: "A Happy Member",
   },
   {
     quote:
       "With the support of Engabi Ensamba Clan SACCO, I was able to expand my retail shop and increase my income.",
-    author: "Grateful Member",
-    role: "Shop Owner",
-  },
-  {
-    quote:
-      "I love the sense of community. We help each other grow, and the low interest rates make it easy to get loans.",
-    author: "Proud Clanmate",
-    role: "Business Owner",
-  },
+    author: "Lilian Namuyomba",
+    role: "Grateful Member",
+  }
 ]
 
 export default function HomePage() {
@@ -254,7 +248,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {testimonials.map((testimonial, index) => (
               <Card
                 key={index}

@@ -217,7 +217,7 @@ export default function ContactPage() {
               {
                 question: "Can I join if I live outside Uganda?",
                 answer:
-                  "Yes! Engabi Ensamba Clan SACCO welcomes clanmates from all corners within and outside Uganda. You can join a group at headquarters or form a group at your place of residence.",
+                  "Yes! Engabi Ensamba Clan SACCO welcomes clanmates from all corners within and outside Uganda. You can join a group at the Kasolya or form a group at your place of residence.",
               },
               {
                 question: "How do I apply for a loan?",
