@@ -51,6 +51,7 @@ const ssigaOptions = [
 
 const groupOptions = [
   "Kasolya",
+  "Lunyiriri",
   "Ssiga Level Group",
   "Mutuba Level Group",
   "Residence-based Group",
@@ -459,7 +460,7 @@ export function MembershipForm() {
               <span className="text-sm text-muted-foreground">
                 I agree to the terms and by-laws of Engabi Ensamba Clan SACCO. I
                 confirm that the information provided is accurate and I am a
-                member of the Engabi Ensamba Clan or related through marriage. *
+                member of the Engabi Ensamba Clan. *
               </span>
             </label>
           </div>

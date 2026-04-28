@@ -36,6 +36,34 @@ import {
   Award,
 } from "lucide-react"
 
+const founders = [
+  {
+    name: "Aloysius Lubega Magandazi",
+    role: "Jajja Nsamba • Clan Leader",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aloysius%20Lubega%20Magandazi-HWJA6SuvwBP3Aogug8l3OwiBXGAXfY.jpg",
+  },
+  {
+    name: "Kasozi Charles",
+    role: "The Katikiro of Ssiga lya Yiga",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kasozi%20charles-GGYAEkqSgwrVRyjo9rpKwnaJCQBhQW.jpg",
+  },
+  {
+    name: "Salongo James Bukenya",
+    role: "Viva Hardware • Ministry of Cooperatives & Trade at clan level",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Salongo%20James%20Bukenya-OYoHJdkj8qlx6J37nr6zPcqZK9dtMd.jpg",
+  },
+  {
+    name: "Katikiro Salongo Balilonda",
+    role: "The Katikiro of our Clan",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Katikiro%20Salongo%20Balilonda-kUAoOGjE2Hz0DigIpwawP8i0Fm4MNC.jpg",
+  },
+  
+]
+
 const boardMembers = [
   { name: "Juliet Nakanwagi Lutakome", role: "Chairperson" },
   { name: "Lubega John", role: "Vice Chairperson" },
@@ -56,9 +84,9 @@ const supervisoryMembers = [
 
 const objectives = [
   "Ensure existing groups run smoothly as new ones are formed at different convenient levels",
-  "Pool savings and shares from member groups and lend at low interests",
+  "Pool savings and shares from individuals and lend at low interests",
   "Generate income from loan applications, interests on loans, and investments",
-  "Supervise the operations of every group in the SACCO",
+  
 ]
 
 const affiliates = [
@@ -134,8 +162,8 @@ export default function AboutPage() {
                 <p>
                   It all started in a meeting held on 7th May 2025 by attendants
                   who had been invited by the Clan Minister of Cooperatives,
-                  Ssalongo Viva Bukenya, through the coordinator (the Katikiro
-                  then of Ssiga lya Yiga) Mr. Charles Kasozi.
+                  Ssalongo Viva Bukenya, through the then coordinator (Katikiro
+                  wa Ssiga lya Yiga) Mr. Charles Kasozi.
                 </p>
                 <p>
                   The purpose was to discuss ways to help clan members save
@@ -267,6 +295,49 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founders Section */}
+      <section className="py-16 md:py-24 bg-secondary/5">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <p className="text-primary font-semibold uppercase tracking-wider mb-2">
+              Our Roots
+            </p>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
+              The Founders
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Visionary leaders who brought Engabi Ensamba Clan SACCO to life and set its foundation
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {founders.map((founder, index) => (
+              <div
+                key={index}
+                className="group text-center"
+              >
+                <div className="relative mb-6 overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                  <div className="aspect-square overflow-hidden bg-muted">
+                    <Image
+                      src={founder.image}
+                      alt={founder.name}
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                <h3 className="font-semibold text-foreground text-lg mb-2 group-hover:text-primary transition-colors">
+                  {founder.name}
+                </h3>
+                <p className="text-primary text-sm font-medium">{founder.role}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

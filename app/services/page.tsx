@@ -85,7 +85,7 @@ const mainServices = [
       "Purchase shares and invest in the SACCO's growth. With shares at UGX 10,000 each, every clan member can participate in building collective wealth.",
     features: [
       "Affordable share price",
-      "Collective ownership",
+      "Collective ownership", 
       "Growing dividends",
       "Long-term wealth building",
     ],
@@ -134,6 +134,10 @@ const fundingSources = [
     title: "Share Purchase",
     description: "Buy shares at UGX 10,000 each",
   },
+   {
+    title: "Regular Savings",
+    description: "Monthly or weekly savings deposits",
+  },
   {
     title: "Nsamba Fund",
     description: "Annual contribution for clan development",
@@ -142,10 +146,7 @@ const fundingSources = [
     title: "Operations Fee",
     description: "Annual contribution for office operations",
   },
-  {
-    title: "Regular Savings",
-    description: "Monthly or weekly savings deposits",
-  },
+ 
   {
     title: "Special Mobilization",
     description: "Funds for particular activities or investments",

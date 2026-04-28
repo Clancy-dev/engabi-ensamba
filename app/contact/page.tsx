@@ -207,7 +207,7 @@ export default function ContactPage() {
               {
                 question: "How do I become a member?",
                 answer:
-                  "You can apply for membership by filling out the membership form on our website or by visiting our office at Kibuye, Kampala. You will need to be a member of the Engabi Ensamba Clan or related through marriage.",
+                  "You can apply for membership by filling out the membership form on our website or by visiting our office at Kibuye, Kampala. You will need to be a member of the Engabi Ensamba Clan",
               },
               {
                 question: "How much does it cost to join?",

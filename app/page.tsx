@@ -60,7 +60,7 @@ const features = [
     icon: HandCoins,
     title: "Low Interest Loans",
     description:
-      "Access affordable loans with low interest rates to grow your business and meet your needs.",
+      "Access cheap money with low interest rates to grow your business and meet your needs.",
   },
   {
     icon: Users,
