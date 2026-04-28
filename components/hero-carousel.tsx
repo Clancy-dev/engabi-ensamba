@@ -19,7 +19,7 @@ const slides = [
   },
   {
     image:
-      "/hero 2.png",
+      "/hero 2.jpeg",
     title: "Building Stronger Communities",
     subtitle: "Unity in Savings",
     description:
