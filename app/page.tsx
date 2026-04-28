@@ -131,7 +131,7 @@ export default function HomePage() {
                 Engabi Ensamba Clan SACCO was established on 7th May 2025 by
                 dedicated clanmates who came together to create a culture of
                 savings and mutual financial support. Today, we have grown to
-                over 200 members with close to 6000 shares.
+                over 200 members with close to 6000 shares. We have groups ie Akasolya, Yiga, Nakyewa, Kasirivu and others.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
