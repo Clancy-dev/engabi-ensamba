@@ -56,7 +56,7 @@ const founders = [
       "/viva.jpg",
   },
   {
-    name: "Katikiro Salongo Balilonda",
+    name: "Salongo Balilonda",
     role: "The Katikiro of our Clan",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Katikiro%20Salongo%20Balilonda-kUAoOGjE2Hz0DigIpwawP8i0Fm4MNC.jpg",
