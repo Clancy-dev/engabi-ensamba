@@ -53,7 +53,7 @@ const founders = [
     name: "Salongo James Bukenya",
     role: "Viva Hardware • Ministry of Cooperatives & Trade at clan level",
     image:
-      "",
+      "/Salongo James Bukenya.png",
   },
   {
     name: "Katikiro Salongo Balilonda",
